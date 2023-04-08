@@ -59,6 +59,7 @@ fun ExperienceDescription(
         modifier = Modifier.fillMaxWidth()
             .margin(topBottom = 14.px)
             .padding(all = 14.px)
+            .borderRadius(10.px)
             .backgroundColor(if (active) Theme.Primary.rgb else Theme.LighterGray.rgb)
     ) {
         P(

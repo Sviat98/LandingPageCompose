@@ -106,12 +106,9 @@ fun AboutMe() {
                         }
                     )
                 }
-
-
             }
         }
     )
-
     Column(
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.Center
@@ -123,7 +120,6 @@ fun AboutMe() {
                 .fontFamily(FONT_FAMILY)
                 .fontSize(18.px)
                 .fontWeight(FontWeight.Normal)
-                .fontStyle(FontStyle.Italic)
                 .color(Theme.Secondary.rgb).toAttrs()
         ) {
             Text(LOREM_IPSUM_SHORT)
