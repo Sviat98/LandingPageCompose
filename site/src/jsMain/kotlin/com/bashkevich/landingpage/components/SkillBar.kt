@@ -25,7 +25,10 @@ fun SkillBar(
     animatedPercentage: Int,
 ) {
     Column(
-        modifier = Modifier.fillMaxWidth().maxWidth(500.px).padding(bottom = 10.px)
+        modifier = Modifier.fillMaxWidth()
+            .margin(bottom = 10.px)
+            .maxWidth(500.px)
+            .padding(topBottom = 5.px)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().margin(bottom = 5.px),
